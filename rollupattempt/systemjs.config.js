@@ -1,15 +1,4 @@
-/** Add Transpiler for Typescript */
-System.config({
-  transpiler: 'typescript',
-  typescriptOptions: {
-    emitDecoratorMetadata: true
-  },
-  packages: {
-    '.': {
-      defaultExtension: 'ts'
-    }
-  }
-});
+
 /** Add Transpiler for Typescript */
 System.config({
   transpiler: 'typescript',

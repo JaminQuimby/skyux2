@@ -3,7 +3,7 @@
 
 .sky-btn {
   background-color: transparent;
-  border: 1px solid $sky-color-gray-lightest;
+  border: @include bb-border(light, top, right, bottom, left);
   border-radius: 3px;
   color: $sky-text-color;
   cursor: pointer;
@@ -12,7 +12,7 @@
   padding: 6px 12px;
 
   &:hover {
-    border: 1px solid $sky-color-gray-lighter;
+    border: @include bb-border(dark, top, right, bottom, left);
     color: $sky-text-color;
   }
 
@@ -40,13 +40,13 @@
 .sky-btn-tab-close {
   background-color: transparent;
   border: none;
-  color: $sky-color-gray-light;
+  color: $sky-text-deemphasized-color;
   cursor: pointer;
   line-height: 1.4;
   margin-left: $sky-margin-half;
 
   &:hover {
-    color: $sky-color-gray;
+    color: $sky-text-deemphasized-focus-color;
     transition: color $sky-transition-time-short;
   }
 }

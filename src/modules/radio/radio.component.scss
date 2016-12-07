@@ -15,7 +15,7 @@
 }
 
 .sky-radio {
-    border: 1px solid $sky-color-gray-lighter;
+    border: @include bb-border(dark, top, right, bottom, left);
     cursor: pointer;
     display: inline-block;
     height: 22px;
@@ -47,8 +47,8 @@
 
 
 .sky-radio-wrapper input:disabled + .sky-radio {
-    background-color: $sky-color-gray-lighter;
-    border: 1px solid $sky-color-gray-lighter;
+    background-color: $sky-neutral-background-color;
+    border: @include bb-border(dark, top, right, bottom, left);
     cursor: default;
 }
 

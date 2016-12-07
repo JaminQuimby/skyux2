@@ -12,18 +12,66 @@ $sky-margin-half: $sky-margin / 2 !default;
 $sky-margin-double: $sky-margin * 2 !default;
 $sky-margin-triple: $sky-margin * 3 !default;
 
-$sky-color-green: #1ab394 !default;
-$sky-color-blue: #1c84c6 !default;
-$sky-color-aqua: #23c6c8 !default;
-$sky-color-yellow: #f8ac59 !default;
-$sky-color-red: #ed5565 !default;
-$sky-color-white: #fff !default;
-$sky-color-purple: #6533c5 !default;
+// begin color palette - do not use these directly
+$sky-color-blue-10: #c1e8fb;
+$sky-color-blue-30: #81d4f7;
+$sky-color-blue-50: #00b4f1;
+$sky-color-blue-70: #007ca6;
 
-$sky-color-gray: lighten(#000, 40%) !default; // #666
-$sky-color-gray-light: lighten(#000, 60%) !default; // #999
-$sky-color-gray-lighter: lighten(#000, 80%) !default; // #ccc
-$sky-color-gray-lightest: lighten(#000, 90%) !default; // #e6e6e6
+$sky-color-green-30: #b7da9b;
+$sky-color-green-50: #72bf44;
+
+$sky-color-yellow-30: #ffd597;
+$sky-color-yellow-50: #fbb034;
+
+$sky-color-red-30: #f7a08f;
+$sky-color-red-50: #ef4044;
+
+$sky-color-teal-70: #00866d;
+
+$sky-color-white: #fff;
+
+$sky-color-purple-10: #f1eef6;
+
+$sky-color-gray-01: #fbfbfb;
+$sky-color-gray-05: #eeeeef;
+$sky-color-gray-10: #e2e3e4;
+$sky-color-gray-20: #cecfd2;
+$sky-color-gray-70: #6f737a;
+$sky-color-gray-80: #4d525a;
+$sky-color-gray-100: #282b31;
+// end new color palette
+
+// begin color variables - use these for applying color
+$sky-primary-highlight-color: $sky-color-blue-50 !default;
+$sky-primary-background-light-color: $sky-color-blue-30 !default;
+$sky-primary-background-dark-color: $sky-color-blue-70 !default;
+
+$sky-success-highlight-color: $sky-color-green-50 !default;
+$sky-success-background-color: $sky-color-green-30 !default;
+
+$sky-warning-highlight-color: $sky-color-yellow-50 !default;
+$sky-warning-background-color: $sky-color-yellow-30 !default;
+
+$sky-danger-highlight-color: $sky-color-red-50 !default;
+$sky-danger-background-color: $sky-color-red-30 !default;
+
+$sky-body-background-color: $sky-color-gray-01 !default;
+
+$sky-text-color: $sky-color-gray-100 !default;
+$sky-text-deemphasized-color: $sky-color-gray-70 !default;
+$sky-text-deemphasized-focus-color: $sky-color-gray-80 !default;
+
+$sky-selected-color: $sky-color-purple-10 !default;
+
+$sky-link-color: $sky-color-blue-70 !default;
+
+$sky-border-color: $sky-color-gray-20 !default;
+$sky-border-light-color: $sky-color-gray-10 !default;
+
+$sky-neutral-background-color: $sky-color-gray-20; // do not use if there will be deemphasized text on this background
+$sky-neutral-background-light-color: $sky-color-gray-01;
+// end color variables
 
 $sky-nav-background-color: #2f4050 !default;
 $sky-nav-color: #a7b1c2 !default;
@@ -31,10 +79,6 @@ $sky-nav-selected-color: $sky-color-white !default;
 $sky-nav-selected-background-color: #293846 !default;
 $sky-nav-item-padding: 16px !default;
 $sky-nav-selected-border-width: 4px !default;
-
-$sky-border-color: #e7eaec !default;
-
-$sky-body-background-color: #f3f3f4 !default;
 
 $sky-font-size-base: 14px !default;
 
@@ -51,10 +95,7 @@ $sky-alternate-font-size-lg: ceil(($sky-font-size-base * 2)) !default; // ~24px
 $sky-alternate-font-size-base: ceil(($sky-font-size-base * 1.833)) !default; // ~22px
 $sky-alternate-font-size-sm: ceil(($sky-font-size-base * 1.667)) !default; // ~20px
 
-$sky-text-color: #292a2b !default;
-$sky-selected-color: #eeeffb !default;
-$sky-text-deemphasized-color: #707374 !default;
-$sky-link-color: $sky-color-blue !default;
+
 
 // begin transitions
 $sky-transition-time-short: 150ms !default;

@@ -11,7 +11,7 @@
 }
 
 .sky-checkbox {
-    @include sky-border(dark, top right bottom left);
+    @include sky-border(dark, top, right, bottom, left);
     cursor: pointer;
     display: inline-block;
     height: 22px;

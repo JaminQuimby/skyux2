@@ -6,7 +6,7 @@
   margin-left: $sky-margin-half;
 
   &:hover {
-    color: $sky-text-deemphasized-active-color;
+    color: $sky-text-deemphasized-focus-color;
     transition: color $sky-transition-time-short;
   }
 }

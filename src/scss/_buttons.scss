@@ -3,7 +3,7 @@
 
 .sky-btn {
   background-color: transparent;
-  border: @include bb-border(light, top, right, bottom, left);
+  @include sky-border(light, top, right, bottom, left);
   border-radius: 3px;
   color: $sky-text-color;
   cursor: pointer;
@@ -12,7 +12,7 @@
   padding: 6px 12px;
 
   &:hover {
-    border: @include bb-border(dark, top, right, bottom, left);
+    @include sky-border(dark, top, right, bottom, left);
     color: $sky-text-color;
   }
 

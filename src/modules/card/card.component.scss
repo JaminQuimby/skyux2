@@ -2,7 +2,7 @@
 
 .sky-card {
     background-color: #fff;
-    border: @include bb-border(dark, top, right, bottom, left);
+    @include sky-border(dark, top, right, bottom, left);
     display: inline-flex;
     flex-direction: column;
     height: 350px;
@@ -86,7 +86,7 @@
 }
 
 .sky-card-actions {
-    border: @include bb-border(dark, top);
+    @include sky-border(dark, top);
     bottom: 0;
     flex-shrink: 0;
     padding: $sky-padding-3_4 0;

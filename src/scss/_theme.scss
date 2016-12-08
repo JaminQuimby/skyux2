@@ -1,4 +1,6 @@
 @import "variables";
+@import "mixins";
+
 * {
   box-sizing: border-box;
 }
@@ -80,7 +82,7 @@ button {
 select {
   background-color: #fff;
   background-image: none;
-  border: @include bb-border(dark, top, right, bottom, left);
+  @include sky-border(dark, top, right, bottom, left);
   border-radius: 1px;
   font-size: $sky-font-size-base;
   height: 34px;

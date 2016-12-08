@@ -1,7 +1,7 @@
 @import '../../scss/mixins';
 
 .sky-modal {
-  border: @include bb-border(light, top, right, bottom, left);
+  @include sky-border(light, top, right, bottom, left);
   @include sky-shadow();
   position: absolute;
   max-width: 600px;
@@ -20,7 +20,7 @@
 
 .sky-modal-header {
   align-items: baseline;
-  border: @include bb-border(dark, bottom);
+  @include sky-border(dark, bottom);
   display: flex;
 }
 
@@ -41,5 +41,5 @@
 }
 
 .sky-modal-footer {
-  border: @include bb-border(dark, top);
+  @include sky-border(dark, top);
 }

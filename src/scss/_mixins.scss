@@ -75,11 +75,11 @@
 }
 
 @mixin sky-btn-tab-selected {
-  background-color: $sky-color-blue;
+  background-color: $sky-primary-background-dark-color;
   color: #fff;
 
   &:hover {
-    background-color: $sky-color-blue;
+    background-color: $sky-primary-background-dark-color;
     color: #fff;
   }
 }

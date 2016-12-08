@@ -12,7 +12,7 @@ $sky-margin-half: $sky-margin / 2 !default;
 $sky-margin-double: $sky-margin * 2 !default;
 $sky-margin-triple: $sky-margin * 3 !default;
 
-// begin color palette - do not use these directly
+// begin color gradients - do not use these directly
 $sky-color-blue-10: #c1e8fb;
 $sky-color-blue-30: #81d4f7;
 $sky-color-blue-50: #00b4f1;
@@ -27,11 +27,13 @@ $sky-color-yellow-50: #fbb034;
 $sky-color-red-30: #f7a08f;
 $sky-color-red-50: #ef4044;
 
+$sky-color-teal-50: #00b795;
 $sky-color-teal-70: #00866d;
 
 $sky-color-white: #fff;
 
 $sky-color-purple-10: #f1eef6;
+$sky-color-purple-50: #936daf;
 
 $sky-color-gray-01: #fbfbfb;
 $sky-color-gray-05: #eeeeef;
@@ -40,7 +42,7 @@ $sky-color-gray-20: #cecfd2;
 $sky-color-gray-70: #6f737a;
 $sky-color-gray-80: #4d525a;
 $sky-color-gray-100: #282b31;
-// end new color palette
+// end color gradients
 
 // begin color variables - use these for applying color
 $sky-primary-highlight-color: $sky-color-blue-50 !default;
@@ -72,6 +74,21 @@ $sky-border-light-color: $sky-color-gray-10 !default;
 $sky-neutral-background-color: $sky-color-gray-20; // do not use if there will be deemphasized text on this background
 $sky-neutral-background-light-color: $sky-color-gray-01;
 // end color variables
+
+// begin old color variables - DEPRECATED
+$sky-color-green: $sky-color-green-50 !default;
+$sky-color-blue: $sky-color-blue-50 !default;
+$sky-color-aqua: $sky-color-teal-50 !default;
+$sky-color-yellow: $sky-color-yellow-50 !default;
+$sky-color-red: $sky-color-red-50 !default;
+$sky-color-white: #fff !default;
+$sky-color-purple: $sky-color-purple-50 !default;
+
+$sky-color-gray: $sky-color-gray-70 !default;
+$sky-color-gray-light: $sky-color-gray-70;
+$sky-color-gray-lighter: $sky-color-gray-20 !default;
+$sky-color-gray-lightest: $sky-color-gray-10 !default;
+// end old color variables
 
 $sky-nav-background-color: #2f4050 !default;
 $sky-nav-color: #a7b1c2 !default;

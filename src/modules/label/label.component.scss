@@ -13,21 +13,21 @@
 }
 
 .sky-label-success {
-  color: white;
-  background-color: $sky-color-green;
+  color: $sky-text-color;
+  background-color: $sky-success-background-color;
 }
 
 .sky-label-info {
-  color: white;
-  background-color: $sky-color-aqua;
+  color: $sky-text-color;
+  background-color: $sky-primary-background-light-color;
 }
 
 .sky-label-warning {
-  color: white;
-  background-color: $sky-color-yellow;
+  color: $sky-text-color;
+  background-color: $sky-warning-background-color;
 }
 
 .sky-label-danger {
-  color: white;
-  background-color: $sky-color-red;
+  color: $sky-text-color;
+  background-color: $sky-danger-background-color;
 }

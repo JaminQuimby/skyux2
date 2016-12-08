@@ -9,7 +9,7 @@
 
   /deep/ .sky-file-drop-reject {
     .sky-avatar-wrapper {
-      border: dashed $sky-avatar-border-width $sky-color-red;
+      border: dashed $sky-avatar-border-width $sky-danger-highlight-color;
     }
   }
 
